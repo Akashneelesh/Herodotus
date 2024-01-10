@@ -1,0 +1,65 @@
+{
+  "name": "unruggable-interface",
+  "version": "0.1.0",
+  "repository": "git@github.com:0xchqrles/unruggable-interface.git",
+  "author": "chqrles",
+  "license": "MIT",
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.3.2",
+    "@starknet-react/chains": "^0.1.0",
+    "@starknet-react/core": "^2.0.0",
+    "@types/react-dom": "^18.2.1",
+    "@vanilla-extract/css": "^1.11.0",
+    "@vanilla-extract/recipes": "^0.4.0",
+    "@vanilla-extract/sprinkles": "^1.6.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.294.0",
+    "ms.macro": "^2.0.0",
+    "polished": "^4.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.0",
+    "react-router-dom": "^6.11.0",
+    "starknet": "^5.10.0",
+    "starknetkit": "^1.0.22",
+    "ua-parser-js": "^1.0.35",
+    "zod": "^3.22.4",
+    "zustand": "^4.3.8"
+  },
+  "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "@types/ms.macro": "^2.0.0",
+    "@types/react": "^18.2.0",
+    "@types/ua-parser-js": "^0.7.36",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "@uniswap/eslint-config": "^1.2.0",
+    "@vanilla-extract/webpack-plugin": "^2.2.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.55.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "get-graphql-schema": "^2.1.2",
+    "mini-css-extract-plugin": "^2.7.5",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "prettier": "^2.4.1",
+    "react-scripts": "^5.0.1",
+    "typescript": "^5.0.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
